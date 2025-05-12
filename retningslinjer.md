@@ -17,13 +17,13 @@ Sørg for å følge kodestandardene til resten av teamet ditt. Sterk typing, esl
 
 I noen prosjekter bruker vi GitHub Projects (boards) til å holde orden på status. Andre prosjekter bruker kanskje JIRA eller DevOps. Uansett: Husk å oppdatere issues ettersom hvor du er i prosessen.
 
-## Feature (eller bugfix) livssyklus
+## Arbeidsflyt
 
-Vi bruker Pull Requests og Code Reviews for å produsere god programvare, v.hj.a. en strategi som kalles [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
+Vi bruker Pull Requests og Code Reviews for å produsere god programvare, v.hj.a. en arbeidsflyt basert på [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
 
  ![github-flow](github-flow.png) 
 
-### Her er slik vi jobber
+### Stegvis beskrivelse av arbeidsflyten
 
 1. Et tydelig mål
 

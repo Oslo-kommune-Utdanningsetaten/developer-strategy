@@ -21,7 +21,7 @@ I noen prosjekter bruker vi GitHub Projects (boards) til å holde orden på stat
 
 Vi bruker Pull Requests og Code Reviews for å produsere god programvare, v.hj.a. en strategi som kalles [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
 
- ![image](github-flow.png) 
+ ![github-flow](github-flow.png) 
 
 ### Her er slik vi jobber
 

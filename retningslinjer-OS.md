@@ -1,3 +1,5 @@
+# Ekstra retningslinjer for utvikling av åpen programvare
+
 Man skal ha gode grunner for ikke å gjøre kode offentlig tilgjengelig - typisk i et public repo på GitHub, men før du gjør kode public, er det viktig at du og teamet ditt har tenkt igjennom følgende spørsmål:
 
 1. Finnes det et scenarie der noen andre kan ha interesse av koden?

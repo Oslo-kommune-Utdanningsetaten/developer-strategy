@@ -1,4 +1,4 @@
-# Retnignslinjer for utvikling
+# Retningslinjer for utvikling av programvare
 
 ## Sikkerhet
 

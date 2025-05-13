@@ -15,7 +15,7 @@ I UDE utvikler vi programvare med hensyn på universell utforming. Web Content A
 Enten det er snakk om et større prosjekt eller en liten feature, er det mange måter å løse det på. Ved valg av platform, programmeringsspråk, protokoller eller biblioteker, vektlegger vi følgende:
 
 - Utvikling: Enkle og modne teknologier utviklerne behersker, og som fasiliterer å bygge løsninger i et raskt og smidig tempo.
-- Vedlikehold: Programvaren skal forhåpentligvis leve en stund, og videreutvikles. Derfor er fremtidskompatibel teknologi viktig. Ikke velg "det siste hotte" bare fordi det høres gøy ut eller fordi konsulenten solgte det inn.
+- Vedlikehold: Programvaren skal forhåpentligvis leve en stund, og videreutvikles. Derfor er fremtidskompatibel teknologi viktig. Ikke velg "det siste hotte" bare fordi det høres gøy ut eller fordi konsulenten vil selge det.
 - Drift: Operativsystem må patches, databaser vedlikeholdes, nettverk må være oppe, maksinvare skaleres etter behov. Ta hensyn til hva de som drifter systemet har kompetanse og tid til å ha ansvar for.
 - Åpen vs. lukket: Fritt tilgjengelig teknologi legger til rette for samarbeid, gjenbruk og verdiskapning i samfunnet.
 - Pris: Husk å ta med både videreutvikling/vedlikehold av kode, drift og lisenser i regnestykket.

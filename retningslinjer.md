@@ -8,9 +8,22 @@ Automatisk scanning av kode kan være svært nyttig. GitHub tilbyr ulike variant
 
 ## Universell utforming
 
-I UDE utvikler vi programvare m.h.p. universell utforming. Web Content Accessibility Guidelines, også kjent som [WCAG](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86) presiserer i detalj hva dette går ut på. Dersom du lager programvare for web, kan WAVE Evaluation Tool el.l. browser extension være nyttig for å identifisere UI-problemer.
+I UDE utvikler vi programvare med hensyn på universell utforming. Web Content Accessibility Guidelines, også kjent som [WCAG](https://www.uutilsynet.no/wcag-standarden/wcag-standarden/86) presiserer i detalj hva dette går ut på. Dersom du lager programvare for web, kan WAVE Evaluation Tool el.l. browser extension være nyttig for å identifisere UI-problemer.
+
+## Valg av teknologi
+
+Enten det er snakk om et større prosjekt eller en liten feature, er det mange måter å løse det på. Ved valg av platform, programmeringsspråk, protokoller eller biblioteker, vektlegger vi følgende:
+
+- Utvikling: Enkle og modne teknologier utviklerne behersker, og som fasiliterer å bygge løsninger i et raskt og smidig tempo.
+- Vedlikehold: Programvaren skal forhåpentligvis leve en stund, og videreutvikles. Derfor er fremtidskompatibel teknologi viktig. Ikke velg "det siste hotte" bare fordi det høres gøy ut eller fordi konsulenten solgte det inn.
+- Drift: Operativsystem må patches, databaser vedlikeholdes, nettverk må være oppe, maksinvare skaleres etter behov. Ta hensyn til hva de som drifter systemet har kompetanse og tid til å ha ansvar for.
+- Åpen vs. lukket: Fritt tilgjengelig teknologi legger til rette for samarbeid, gjenbruk og verdiskapning i samfunnet.
+- Pris: Husk å ta med både videreutvikling/vedlikehold av kode, drift og lisenser i regnestykket.
+- Kompatibilitet: På et tidspunkt kommer noen til å be om tilgang til en del av tjenesten din, f.eks. via et API. Husk at "Black box"-er være tricky å dele.
+- Kompetanse på arbeidsmarkedet: Ikke velg sære greier som ingen andre kan. Da blir det umulig å få noen til å overta stafettpinnen.
 
 ## Konvesjoner for koding
+
 Sørg for å følge kodestandardene til resten av teamet ditt. Sterk typing, eslint eller prettier kan gjøre livet ditt enklere.
 
 ## Prosjektstyring/boards
@@ -37,7 +50,7 @@ Lag en ny branch i github for denne ene featuren du skal utivkle. Gi den et navn
 
 Før du publiserer noe kode ut på Internett, enten repository er public eller private, pass på at det ikke er noen personlige eller sensitive data med på lasset. Dette inkluderer passord, API-nøkler, logger, databasedumper, testdata osv.
 
-Når du commiter og pusher til github, sørg for at hver commite gjør én ting og at meldingene som følger med commiten tydelig beskriver hva du har endret. Dersom du har en typo eller ser at du var uklar, husk at `git commit --amend -m"Oppdatert melding` er din venn.
+Når du commiter og pusher til github, sørg for at hver commit gjør én ting og at meldingene som følger med commiten tydelig beskriver hva du har endret. Dersom du har en typo eller ser at du var uklar, husk at `git commit --amend -m "Oppdatert melding"` er din venn.
 
 4. Hyppig synkonisering med main
 
@@ -63,4 +76,4 @@ Koden du har skrevet bør størst mulig grad være selvdokumenterende, med gjenn
 
 9. Release og release notes
 
-Tag koden med versjon, om nødvendig. Deploy main branchen til produksjon. Husk å skrive release notes i relevant forum, dersom noen andre har interesse av endringen du har gjort. Forhåpentligvis er det noen som har det :)
+Tag koden med versjon, om nødvendig. Deploy til produksjon. Husk å skrive release notes i relevant forum, dersom noen andre har interesse av endringen du har gjort. Forhåpentligvis er det noen som har det :)

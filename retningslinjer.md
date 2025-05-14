@@ -2,7 +2,7 @@
 
 ## Sikkerhet
 
-Datatilsynet har utarbeidet gode retningslinjer for "Syv faser av programvareutvikling med innebygd personvern". Her finner du en [plakat som oppsummerer hvordan man bør jobbe helheltlig](https://www.datatilsynet.no/globalassets/global/dokumenter-pdfer-skjema-ol/regelverk/veiledere/innebygd-personvern/sikrel_plakat_web.pdf) for sikker utvikling. [OWASP](https://devguide.owasp.org/) er også en (ganske omstendig) ressurs som teamet ditt kan legge til grunn.
+Datatilsynet har utarbeidet gode retningslinjer for (programvareutvikling med innebygd personvern)[https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/programvareutvikling-med-innebygd-personvern/]. Her finner du en [plakat som oppsummerer hvordan man bør jobbe helheltlig](https://www.datatilsynet.no/globalassets/global/dokumenter-pdfer-skjema-ol/regelverk/veiledere/innebygd-personvern/sikrel_plakat_web.pdf) for sikker utvikling. [OWASP](https://devguide.owasp.org/) er også en (ganske omstendig) ressurs som teamet ditt kan legge til grunn.
 
 Automatisk scanning av kode kan være svært nyttig. GitHub tilbyr ulike varianter av dette, f.eks. dependency-sjekking (er det kjente sikkerhetshull i noen av bibliotekene du bruker) eller [code scanning](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning).
 

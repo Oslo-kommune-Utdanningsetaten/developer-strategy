@@ -15,11 +15,11 @@ I UDE utvikler vi programvare med hensyn på universell utforming. Web Content A
 Enten det er snakk om et større prosjekt eller en liten feature, er det mange måter å løse det på. Ved valg av platform, programmeringsspråk, protokoller eller biblioteker, vektlegger vi følgende:
 
 - Utvikling: Enkle og modne teknologier utviklerne behersker, og som fasiliterer å bygge løsninger i et raskt og smidig tempo.
-- Vedlikehold: Programvaren skal forhåpentligvis leve en stund, og videreutvikles. Derfor er fremtidskompatibel teknologi viktig. Ikke velg "det siste hotte" bare fordi det høres gøy ut eller fordi konsulenten vil selge det.
+- Vedlikehold: Programvaren skal forhåpentligvis leve en stund, og videreutvikles. Derfor er fremtidskompatibel teknologi viktig. Ikke velg noe bare fordi det høres gøy ut eller fordi konsulenten vil selge det.
 - Drift: Operativsystem må patches, databaser vedlikeholdes, nettverk må være oppe, maksinvare skaleres etter behov. Ta hensyn til hva de som drifter systemet har kompetanse og tid til å ha ansvar for.
 - Åpen vs. lukket: Fritt tilgjengelig teknologi legger til rette for samarbeid, gjenbruk og verdiskapning i samfunnet.
 - Pris: Husk å ta med både videreutvikling/vedlikehold av kode, drift og lisenser i regnestykket.
-- Kompatibilitet: På et tidspunkt kommer noen til å be om tilgang til en del av tjenesten din, f.eks. via et API. Husk at "Black box"-er være tricky å dele.
+- Kompatibilitet: På et tidspunkt kommer noen til å be om tilgang til en del av tjenesten din, f.eks. via et API. Husk at "Black box"-er kan være tricky å dele.
 - Kompetanse på arbeidsmarkedet: Ikke velg sære greier som ingen andre kan. Da blir det umulig å få noen til å overta stafettpinnen.
 
 ## Konvesjoner for koding
@@ -48,7 +48,7 @@ Lag en ny branch i github for denne ene featuren du skal utivkle. Gi den et navn
 
 3. Commit og push
 
-Før du publiserer noe kode ut på Internett, enten repository er public eller private, pass på at det ikke er noen personlige eller sensitive data med på lasset. Dette inkluderer passord, API-nøkler, logger, databasedumper, testdata osv.
+Før du publiserer noe kode ut på Internett, enten repo er public eller private, pass på at det ikke er noen personlige eller sensitive data med på lasset. Dette inkluderer passord, API-nøkler, logger, databasedumper, testdata osv.
 
 Når du commiter og pusher til github, sørg for at hver commit gjør én ting og at meldingene som følger med commiten tydelig beskriver hva du har endret. Dersom du har en typo eller ser at du var uklar, husk at `git commit --amend -m "Oppdatert melding"` er din venn.
 
@@ -72,7 +72,7 @@ Når koden er godkjent og alle tester passerer, merger du branchen din inn i mai
 
 8. Dokumentasjon
 
-Koden du har skrevet bør størst mulig grad være selvdokumenterende, med gjennomtenkte navn på variable, funksjoner, klasser og filer. Dersom det trengs, husk å oppdatere README.md eller annen relevant dokumentasjon.
+Koden du har skrevet bør størst mulig grad være selvdokumenterende, med gjennomtenkte navn på variable, funksjoner, klasser og filer. Dersom det trengs, husk å oppdatere README.md og annen relevant dokumentasjon, som f.eks. https://aktuelt.osloskolen.no/larerik-bruk-av-laringsteknologi/digital-skolehverdag/kunstig-intelligens-ki-i-osloskolen/
 
 9. Release og release notes
 

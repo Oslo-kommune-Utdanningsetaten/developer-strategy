@@ -2,7 +2,7 @@
 
 ## Sikkerhet
 
-Datatilsynet har utarbeidet gode retningslinjer for (programvareutvikling med innebygd personvern)[https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/programvareutvikling-med-innebygd-personvern/]. Her finner du en [plakat som oppsummerer hvordan man bør jobbe helheltlig](https://www.datatilsynet.no/globalassets/global/dokumenter-pdfer-skjema-ol/regelverk/veiledere/innebygd-personvern/sikrel_plakat_web.pdf) for sikker utvikling. [OWASP](https://devguide.owasp.org/) er også en (ganske omstendig) ressurs som teamet ditt kan legge til grunn.
+Datatilsynet har utarbeidet gode retningslinjer for [programvareutvikling med innebygd personvern](https://www.datatilsynet.no/rettigheter-og-plikter/virksomhetenes-plikter/programvareutvikling-med-innebygd-personvern/). Her finner du en [plakat som oppsummerer hvordan man bør jobbe helheltlig](https://www.datatilsynet.no/globalassets/global/dokumenter-pdfer-skjema-ol/regelverk/veiledere/innebygd-personvern/sikrel_plakat_web.pdf) for sikker utvikling. [OWASP](https://devguide.owasp.org/) er også en (ganske omstendig) ressurs som teamet ditt kan legge til grunn.
 
 Automatisk scanning av kode kan være svært nyttig. GitHub tilbyr ulike varianter av dette, f.eks. dependency-sjekking (er det kjente sikkerhetshull i noen av bibliotekene du bruker) eller [code scanning](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning).
 
@@ -14,7 +14,7 @@ I UDE utvikler vi programvare med hensyn på universell utforming. Web Content A
 
 Enten det er snakk om et større prosjekt eller en liten feature, er det mange måter å løse det på. Ved valg av platform, programmeringsspråk, protokoller eller biblioteker, vektlegger vi følgende:
 
-- Utvikling: Enkle og modne teknologier utviklerne behersker, og som fasiliterer å bygge løsninger i et raskt og smidig tempo.
+- Utvikling: Enkle og modne teknologier utviklerne behersker, og som fasiliterer å bygge løsninger raskt og smidig.
 - Vedlikehold: Programvaren skal forhåpentligvis leve en stund, og videreutvikles. Derfor er fremtidskompatibel teknologi viktig. Ikke velg noe bare fordi det høres gøy ut eller fordi konsulenten vil selge det.
 - Drift: Operativsystem må patches, databaser vedlikeholdes, nettverk må være oppe, maksinvare skaleres etter behov. Ta hensyn til hva de som drifter systemet har kompetanse og tid til å ha ansvar for.
 - Åpen vs. lukket: Fritt tilgjengelig teknologi legger til rette for samarbeid, gjenbruk og verdiskapning i samfunnet.

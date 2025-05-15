@@ -17,9 +17,9 @@ Enten det er snakk om et større prosjekt eller en liten feature, er det mange m
 - Utvikling: Enkle og modne teknologier utviklerne behersker, og som fasiliterer å bygge løsninger raskt og smidig.
 - Vedlikehold: Programvaren skal forhåpentligvis leve en stund, og videreutvikles. Derfor er fremtidskompatibel teknologi viktig. Ikke velg noe bare fordi det høres gøy ut eller fordi konsulenten vil selge det.
 - Drift: Operativsystem må patches, databaser vedlikeholdes, nettverk må være oppe, maksinvare skaleres etter behov. Ta hensyn til hva de som drifter systemet har kompetanse og tid til å ha ansvar for.
-- Åpen vs. lukket: Fritt tilgjengelig teknologi legger til rette for samarbeid, gjenbruk og verdiskapning i samfunnet.
-- Pris: Husk å ta med både videreutvikling/vedlikehold av kode, drift og lisenser i regnestykket.
-- Kompatibilitet: På et tidspunkt kommer noen til å be om tilgang til en del av tjenesten din, f.eks. via et API. Husk at "Black box"-er kan være tricky å dele.
+- Åpen vs. lukket: Fritt tilgjengelig teknologi legger til rette for samarbeid, gjenbruk og verdiskapning i samfunnet. Lukket, proprietær eller lisensbelagt teknologi reduserer, eller fjerner helt, andres mulighet til å bygge på det du har laget.
+- Pris: Husk å ta med både videreutvikling/vedlikehold av kode, drift og eventuelle lisenser i regnestykket.
+- Kompatibilitet: På et tidspunkt kommer noen til å be om tilgang til en del av tjenesten din, f.eks. via et API. Husk at "Black box"-er kan være vrient å dele.
 - Kompetanse på arbeidsmarkedet: Ikke velg sære greier som ingen andre kan. Da blir det umulig å få noen til å overta stafettpinnen.
 
 ## Konvesjoner for koding
